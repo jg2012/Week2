@@ -145,10 +145,82 @@ public class Lab {
 		}else if(remainingOfCookies >0) {
 			System.out.println("Yes!");
 	}else {
-			System.out.println("Sad Face!");
+			System.out.println("Sad Face!"); 
 		}
-
-		
-	}
 	
+	
+		//create a variable called loyaltyMemberStatus and assign the value "SILVER"
+		//create a variable called loyaltyMemberDiscount and assign the value 0.0
+		//using a switch, set the value of loyaltyMemberDiscount based on the following loyaltymemberStatus scale 
+		//"Silver" is 0.10, "Gold is 0.15 and Platinum" is 0.25
+		
+	String loyaltyMemberStatus = "GOLD"; 
+	double loyaltyMemberDiscount = 0.12; 
+	
+	switch (loyaltyMemberStatus){
+		case "SILVER":
+			loyaltyMemberDiscount = .1; 
+			break; 
+		case "GOLD":
+			loyaltyMemberDiscount = .15; 
+			break; 
+		case "PLATINUM": 
+			loyaltyMemberDiscount = .25;
+			break; 
+			 
+		} 
+		System.out.println(loyaltyMemberDiscount); 
+	
+		//create a variable called billTotal and assign a value 
+		//create a variable called adjustTotal and assign it to the billTotal minus the loyaltyMemberDiscoutn percent of the billTotal
+		//if the adjustBillTotal is greater than $500 upgrade the loyaltyMemberStatus from SILVER to GOLD or GOLD  to PLATINUM
+	
+	
+		double billTotal = 600; 
+		double adjustedBillTotal = billTotal - loyaltyMemberDiscount * billTotal; 
+		System.out.println(adjustedBillTotal);
+		
+		
+		if (adjustedBillTotal > 500){
+			if(loyaltyMemberStatus == "SILVER") {
+				loyaltyMemberStatus = "GOLD"; 
+					
+			}else if (loyaltyMemberStatus == "GOLD") {
+				loyaltyMemberStatus = "PLATINUM"; 
+			}
+			
+		}
+		System.out.println(loyaltyMemberStatus);
+		
+		//create two variables, username and password 
+		//create a conditional that prints "login successful" if the username is "Tommy123" and the password is "1234"
+		//otherwise, print "access denied" 
+		
+		String username = "Sammy123"; 
+		String password = "12345"; 
+		
+		if (username.equals("Tommy123") && password.equals("12345")) {
+			 
+			System.out.println("Login Successful");
+			}else {
+			System.out.println("Access Denied");
+			}
+		
+		
+		
+		//write a for loop that prints each number from 0 to 9
+		
+		//write a for loop that prints each number from 10 to 0 backwards 
+		
+		//write a for loop that prints every other number from 0 to 100 
+		
+		//write a for loop that iterates from 0 to 100 and prints "Even" if the number is even and "Odd" if it's odd 
+		
+		//write a while loop that starts at 100 and iterates backward by 1 unit it reaches 0
+		
 }
+
+}
+
+	
+
