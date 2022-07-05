@@ -210,14 +210,58 @@ public class Lab {
 		
 		//write a for loop that prints each number from 0 to 9
 		
+		for (int i = 0;  i < 10; i++) {
+			System.out.println(i);
+		}
+	
 		//write a for loop that prints each number from 10 to 0 backwards 
+		
+		for(int s=10; s >= 0; s--) {
+			System.out.println(s);
+		}
 		
 		//write a for loop that prints every other number from 0 to 100 
 		
+		for(int i = 0; i <= 100; i+=2) { 
+			System.out.println(i);
+			
+		}
+		//itterates 100 digits 
+		for(int i=0; i <= 100; i++) {
+			if(i%2 == 0) {
+				System.out.println(i);
+			}
+		}
+		
+		
 		//write a for loop that iterates from 0 to 100 and prints "Even" if the number is even and "Odd" if it's odd 
 		
-		//write a while loop that starts at 100 and iterates backward by 1 unit it reaches 0
+		for(int i=0; i <= 100; i++) {
+			if(i%2 == 0) {
+				System.out.println(i+ " even");
+			}else { 
+			System.out.println(i + " odd");
+		}
+	}
 		
+		//write a while loop that starts at 100 and iterates backward by 1 unit it reaches 0 
+		//dived each number by 3 and print the remainder to the console 
+		int x = 100; 
+		
+		do {
+			System.out.println(x + " " + (x % 3));
+			x--;
+			
+		}while(x >=0); 
+		
+			
+		int i = 100; 
+		while (i >= 0) {
+			System.out.println(i + " " + (i % 3)  );
+			i--; 
+		}
+		
+			
 }
 
 }
