@@ -72,14 +72,48 @@ public class HW {
 //
 //	        System.out.println(longString);
 		
-		int counter = 0; 
-		for(int i = 1; i <100; i +=2) {
-			counter++; 
-	
-		}System.out.println(counter);
-    	
-	}
-	
+//		if
+//    	
+//		int x = 100; 
+//		int y = 5; 
+//		
+//		if( x < 100 && y >1) {
+//			while(x>y) {
+//				System.out.println(x); 
+//				x--;
+//			}
+//		}else {
+//			System.out.println("Your loop did not run.");
+////		}
+//		 int x =5; 
+//		 if (x>0) {
+//		for ( int i = 0; i <=x; i++) {
+//			System.out.println(i);
+//		}
+//		 }else {
+//			 System.out.println("Please enter a number greater than 0");
+//		 }
+		
+//		int sum = 0; 
+//		
+//		for (int i=1; i <=10; --i) {
+//			System.out.println("hello"); 
+//		}
+		
+		
+		
+//		  if(userWord.length()<5){
+//		         System.out.println(userWord);
+//		      }
+//		      else {
+//		          do{
+//		              System.out.println(userWord); 
+//		              counter--; 
+//		          }while(counter>0);
+//		      }
+		
+		
+		}
 	
 } 
 
