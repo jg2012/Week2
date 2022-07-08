@@ -22,6 +22,7 @@ public class Conditionals {
 		double costOfMilk = 2; 
 		
 		if (costOfMilk <= 2) {
+			
 			System.out.println("Buying 2");
 		}else if(costOfMilk <=3) {
 			System.out.println("Buying 1");
